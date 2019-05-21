@@ -1,0 +1,199 @@
+body{
+	font-family: myriad-pro, sans-serif;
+}
+
+header img{
+	width: 100px;
+}
+
+footer{
+	background-color: #09A7E0;
+}
+
+footer a{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+.footer1{
+	width: 80px;
+	margin-top: 20px;
+	float: left;
+}
+
+.footer2{
+	width: 180px;
+	float: right;
+}
+
+.facebook{
+	width: 10px;
+}
+
+.twitter{
+	width: 20px;
+}
+
+#line{
+	border-left: 2px solid #FFFFFF;
+	height: 40px;
+}
+
+/* INDEX */
+
+#caption{
+	background-size: cover;	
+	padding: 15px;
+	padding-bottom: 80px;
+}
+
+#caption2{
+	background-size: cover;	
+	padding: 15px;
+	padding-bottom: 180px;
+}
+
+.overlay{		
+	position: relative;
+	margin-left: 30px;	
+	margin-right: 150px;
+	font-size: 20px;
+	color: #FFFFFF;
+	top:0;
+	left:0;
+	z-index:1;
+	text-align: left;
+}
+
+.meh{
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-top: 10px solid #fff;
+	border-right: 10px solid transparent;
+}
+
+.meh2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: 30px solid #fff;
+	border-right: 30px solid transparent;
+}
+
+#text{
+	font-size: 12px;
+	color: #5B5E62;
+}
+
+ul{
+	list-style-type: none;
+	padding-inline-start: 0;
+	margin-top: 10px;
+}
+
+li{
+	position: relative;
+	padding-left: 10px;
+}
+
+li:before{
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-top: 5px solid #fff;
+	border-right: 5px solid transparent;
+}
+
+/* MAP */
+
+.map{
+	width: 200px;
+	margin: auto;
+}
+
+.map li{
+	font-size: 12px;
+}
+
+.map img{
+	width: 100px;
+}
+
+.jumbotron{
+	padding-bottom: 100%;
+}
+
+/* UPLOAD DATA */
+
+.overlay_data{
+	position: relative;
+}
+
+.meh_data{
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-top: 10px solid #09A7E0;
+	border-right: 10px solid transparent;
+}
+
+.h1{
+	font-size: 20px;
+	color: #09A7E0;
+}
+
+ol{
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+
+ol span{
+	color: #09A7E0;
+	margin-right: 10px;
+}
+
+li{
+	line-height: 25px;
+}
+
+.form{
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+label{
+	color: black;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+input{
+	font-size: 15px;	
+}
+
+button{
+	font-size: 12px;
+	background-color: #09A7E0;
+	color: #FFFFFF;
+	border: 1px solid transparent;
+}
+
+.button{
+	border-radius: .5rem;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.form_footer{
+	font-size: 10px;
+}
+
+/* DOWNLOAD DATA */
+
+.hr{
+	width: 300px;
+}

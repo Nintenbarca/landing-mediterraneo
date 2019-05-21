@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Upload Data</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 p-2">					
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<img src="img/logo.png">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					    	<span class="navbar-toggler-icon"></span>
+					  	</button>  	
+
+					  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					  		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					  			<li class="nav-item">
+						        	<a class="nav-link" href="#">Login</a>
+						      	</li>
+						     	<li class="nav-item">
+						        	<a class="nav-link" href="#">INR-MED</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Map</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Upload data</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Download data</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1</a>
+						      	</li>
+						    </ul>							
+						</div>									
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12" id="caption" style="background-image: 
+					url('img/img/backgrounds/upload_data.jpg')">
+					<div class="overlay">
+						<div class="meh"></div> <p class="ml-3">Upload and join your data in the underwater noise register.<p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 pl-5 pr-5 pt-5" id="text">
+					<div class="overlay_data mb-4">
+						<div class="meh_data"></div> <p class="h1 ml-3">To upload your underwater noise data, please, follow the next stemps</p>
+					</div>
+
+					<ol>						
+						<li>
+							<span>1</span>Download the "Underwater noise register template for the Mediterranean Region" 
+							<strong>(excel format).</strong>
+						</li>
+						
+						<li>
+							<span>2</span>Fulfil the required fields of the template following the instructions inside.
+						</li>
+
+						<li>
+							<span>3</span>Transform the excel file in a XML file following the instructions of the template.
+						</li>
+
+						<li>
+							<span>4</span>Save the XML file generated.
+						</li>
+
+						<li>
+							<span>5</span>Upload the generated XML file using the upload box below.
+						</li>
+
+						<li>
+							<span>6</span>If the upload process is successful, the application will show the message <strong>"Data uploaded successfully"*.</strong>
+						</li>
+
+						<li>
+							<span>7</span>Your data are printed in the map.
+						</li>
+					</ol>
+				</div>
+				<div class="col-12 col-md-6 p-5">								
+					<div class="row mb-3">
+						<button class="col mr-3">
+							Template only
+						</button>
+
+						<button class="col ml-3">
+							Template with polygon files
+						</button>
+					</div>
+
+					<div style="background-image: url('img/img/backgrounds/upload_content.png')" class="pt-4">
+						<form action="#" class="form">
+							<div class="row mb-3">								
+								<label for="file" align="right" class="col-4">XML File</label>
+								<input type="file" name="xml" class="col">								
+							</div>
+
+							<div class="row">								
+								<label for="file" align="right" class="col-4">Spatial File</label>
+								<input type="file" name="spatial" class="col">
+							</div>
+
+							<div align="right" class="mt-4">	
+								<button type="submit" class="button">
+									Submit file
+								</button>
+							</div>
+						</form>
+					</div>	
+
+					<div class="form_footer mt-4">
+						*If an error occurs during the upload procedure the application will inform about it. Any errors must be solved to submit the data correctly.
+					</div>		
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="mt-5 p-3">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<img src="img/footer1.png" class="footer1">
+					<img src="img/footer2.png" class="footer2">
+				</div>
+				<div class="col-8">
+					<ul>
+						<li><a href="#">Develop by <strong>CTN</strong></a></li>
+						<li><a href="#">ctnaval.com</a></li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<div align="right" class="mt-2" id="line">
+						<a href="#"><img src="img/facebook.png" class="facebook"></a>
+						<a href="#"><img src="img/twitter.png" class="twitter ml-4"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

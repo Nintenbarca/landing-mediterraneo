@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Download Data</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 p-2">					
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<img src="img/logo.png">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					    	<span class="navbar-toggler-icon"></span>
+					  	</button>  	
+
+					  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					  		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					  			<li class="nav-item">
+						        	<a class="nav-link" href="#">Login</a>
+						      	</li>
+						     	<li class="nav-item">
+						        	<a class="nav-link" href="#">INR-MED</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Map</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Upload data</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Download data</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1</a>
+						      	</li>
+						    </ul>							
+						</div>									
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12" id="caption" style="background-image: 
+					url('img/img/backgrounds/download_data.jpg')">
+					<div class="overlay">
+						<div class="meh"></div> <p class="ml-3">Download and use the data of the underwater noise register.<p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 pl-5 pr-5 pt-5" id="text">
+					<p>All the information of the impulse noise register in the Mediterranean Sea Region is available for download.</p>
+
+					<p>All available formats for downloading (CSV, GML, SHP, KML and GeoJSON) contain geometry information to work in GIS systems.</p>
+
+					<p>Use the filter to select the information:</p>
+
+					<p>All available formats for downloading (CSV, GML, SHP, KML and GeoJSON) contain geometry information to work in GIS systems.</p>
+
+					<p>Use the filter to select the information:</p>
+				</div>
+
+				<div class="col-12">	
+					<hr class="hr">
+				</div>
+
+				<div class="col-12">	
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					    	<span class="navbar-toggler-icon"></span>
+					  	</button>
+						<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					  			<li class="nav-item">
+						        	<a class="nav-link" href="#">Noise databse</a>
+						      	</li>
+						     	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1 indicator by month</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1 indicator by year</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">Noise databse filter</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1 indicator by month_filter</a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="#">D11C1 indicator by year_filter</a>
+						      	</li>
+						    </ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="col-12">
+					<form action="#" class="form mt-5">
+						<div class="row mb-3">								
+							<label for="output" class="col-4" align="right">Output format</label>
+							<select class="col-6" name="output"></select>								
+						</div>
+
+						<div class="row">								
+							<label for="geometry" class="col-4" align="right">Geometry type</label>
+							<select class="col-6" name="geometry"></select>
+						</div>
+						
+						<div class="row mt-4 mb-4">
+							<select class="col-12 col-md-3 mb-3"></select>
+							<select class="col-12 col-md-2 mb-3"></select>
+							<select class="col-12 col-md-4 mb-3"></select>
+							<button type="button" class="button col-3">
+								Add query
+							</button>
+						</div>
+						<div align="center">	
+							<button type="submit" class="button">
+								Download
+							</button>		
+						</div>									
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="mt-5 p-3">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<img src="img/footer1.png" class="footer1">
+					<img src="img/footer2.png" class="footer2">
+				</div>
+				<div class="col-8">
+					<ul>
+						<li><a href="#">Develop by <strong>CTN</strong></a></li>
+						<li><a href="#">ctnaval.com</a></li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<div align="right" class="mt-2" id="line">
+						<a href="#"><img src="img/facebook.png" class="facebook"></a>
+						<a href="#"><img src="img/twitter.png" class="twitter ml-4"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
